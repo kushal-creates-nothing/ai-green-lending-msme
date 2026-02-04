@@ -46,7 +46,7 @@ df["Default"] = (1/(1+np.exp(-(risk-risk.mean())))>0.8).astype(int)
 df_model = pd.get_dummies(df, drop_first=True)
 
 # ==============================================================================
-# 2. STATISTICAL VALIDATION (YOUR PAPER NUMERICALS)
+# 2. STATISTICAL VALIDATION 
 # ==============================================================================
 
 print("\nMEANS")
@@ -89,7 +89,7 @@ sv = explainer(X_test)
 shap.summary_plot(sv.values[:,:,1],X_test)
 
 # ==============================================================================
-# 5. BATCH MSME AUDIT — FILEUPLOAD (NO PATH ISSUES)
+# 5. BATCH MSME AUDIT — FILEUPLOAD 
 # ==============================================================================
 
 print("\n" + "="*70)
