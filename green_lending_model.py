@@ -1,7 +1,3 @@
-# ==============================================================================
-# AI-BASED GREEN LENDING — COMPLETE, ROBUST, FILE-SAFE VERSION
-# ==============================================================================
-
 !pip install shap scikit-learn pandas numpy matplotlib seaborn ipywidgets xgboost fpdf --quiet
 
 import pandas as pd
